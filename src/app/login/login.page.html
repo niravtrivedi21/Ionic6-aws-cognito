@@ -1,0 +1,33 @@
+<ion-content class="ion-padding">
+  <div class="ion-padding-top">
+    <ion-row class="ion-margin-top">
+      <ion-col>
+        <img class="logo" src="assets/ionic-cognito.png" />
+      </ion-col>
+    </ion-row>
+    <ion-item>
+      <ion-col>
+        <ion-list>
+          <ion-item>
+            <ion-label position="floating">Email</ion-label>
+            <ion-input type="email" [(ngModel)]="email"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">Password</ion-label>
+            <ion-input type="password" [(ngModel)]="password"></ion-input>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-item>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="full" (click)="login()">Login</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="full" (click)="signUp()">SignUp</ion-button>
+      </ion-col>
+    </ion-row>
+  </div>
+</ion-content>
