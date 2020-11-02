@@ -39,7 +39,7 @@ ionic cordova run android
 ```
 
 
-### For Cognito Generate UserPoolId and ClientId and add into cognito-service.ts file.
+### For Cognito Generate UserPoolId and ClientId From aws account and add into cognito-service.ts file.
 
 These are Cordova resources. You can replace icon.png and splash.png and run
 `ionic cordova resources` to generate custom icons and splash screens for your
