@@ -1,5 +1,5 @@
-# Ionic 5 AWS Cognito Example
-# Ionic5-aws-cognito
+# Ionic 6 AWS Cognito Example
+# Ionic6-aws-cognito
 ## Installation
 
 To run this example in production or development mode you have to make sure, `ionic` and `cordova` are installed globally on your machine. After that you can install all necessary dependencies for running this example.
